@@ -1,5 +1,5 @@
 body {
-   background-color: black;
+   /*background-color: black;*/
 }
 .Navigation-Item{
   font-family: 'Tangerine', cursive;
@@ -10,7 +10,7 @@ body {
 }
 
 .changeColor {
-  background: linear-gradient(to right, transparent 50%, #272d38 50%);
+  background: linear-gradient(to right, transparent 50%, #5D5648 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease;
@@ -33,6 +33,7 @@ body {
 }
 .carousel-caption{
 				position: absolute;
+        bottom: 0;
 				right: 10;
 				left: 0;
         top:0;
@@ -64,3 +65,7 @@ body {
     margin-left: 50px;
     font-size: 20px;
   }
+  .parallax-window {
+	min-height: 700px;
+	background: transparent;
+}
