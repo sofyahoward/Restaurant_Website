@@ -1,3 +1,66 @@
-body{
-    background-color: green;
+body {
+   background-color: black;
 }
+.Navigation-Item{
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+  margin-right: 50px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.changeColor {
+  background: linear-gradient(to right, transparent 50%, #272d38 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease;
+}
+
+.navbar .navbar-brand{
+  color: #fffaf0;
+  font-size: 50px;
+  font-family: 'Tangerine', cursive;
+}
+.navbar .nav-item .nav-link{
+  color: #fffaf0;
+}
+#tower{
+  height:70px;
+  width: 40px;
+}
+.carousel-item .img-fluid{
+  width:100%;
+}
+.carousel-caption{
+				position: absolute;
+				right: 10;
+				left: 0;
+        top:0;
+        width: 45%;
+				color: #fff;
+				text-align: center;
+        background: linear-gradient(to left, transparent 3%, #272d38 97%);
+			}
+  .text-caption{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Tangerine';
+    font-size: 40px;
+  }
+  .textPartOne{
+    font-family: 'Lora', serif;
+    margin-top: 200px;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+  .textPartTwo{
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    font-size: 20px;
+  }
