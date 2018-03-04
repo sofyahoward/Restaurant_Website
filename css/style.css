@@ -1,5 +1,5 @@
 body {
-   /*background-color: black;*/
+   background-color: #5D5648;
 }
 .Navigation-Item{
   font-family: 'Tangerine', cursive;
@@ -43,15 +43,15 @@ body {
         background: linear-gradient(to left, transparent 3%, #272d38 97%);
 			}
   .text-caption{
-    margin-top: 20px;
+    margin-top: 15%;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 10%;
     font-family: 'Tangerine';
     font-size: 40px;
   }
   .textPartOne{
     font-family: 'Lora', serif;
-    margin-top: 200px;
+    margin-top: 25%;
     color: white;
     text-align: left;
     margin-left: 50px;
@@ -59,7 +59,7 @@ body {
   }
   .textPartTwo{
     font-family: 'Lora', serif;
-    margin-top: 20px;
+    margin-top: 12%;
     color: white;
     text-align: left;
     margin-left: 50px;
@@ -68,4 +68,49 @@ body {
   .parallax-window {
 	min-height: 700px;
 	background: transparent;
+}
+#map{
+float:left;
+display:inline;
+width: 49%;
+height: 400px;
+margin-top: 150px;
+margin-left: 100px;
+
+}
+.overlay{
+  bottom: 0;
+  right: 10;
+  left: 0;
+  top:0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, transparent 10%, #272d38 90%);
+}
+#visitText{
+  float:left;
+  display:inline;
+  width: 30%;
+  margin left: 30px;
+  height: 200px;
+  margin-top: 230px;
+  font-family: 'Lora', serif;
+  background-color: rgba(227, 220, 206, 0.8);
+  padding-top: 20px;
+  color: black;
+  float: right;
+  margin-right: 150px;
+}
+.social{
+  color: #272d38;
+}
+.social:hover{
+  color: #fffaf0;
+}
+.about{
+  color: #272d38;
+}
+.about:hover{
+  color: #fffaf0;
 }

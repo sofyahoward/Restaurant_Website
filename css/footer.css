@@ -1,0 +1,12 @@
+body{
+    margin: 0%;
+    border: 0px;
+    padding: 0;
+    display: inline;
+}
+footer{
+    background-color: #252632;
+    color: aliceblue;
+    display: block;
+    font-size: 18px;
+}
