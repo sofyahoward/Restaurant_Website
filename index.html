@@ -31,11 +31,10 @@
       <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
     </li>
     <li class="nav-item Navigation-Item">
-      <a class="nav-link" href="#">Menu</a>
+      <a class="nav-link" href="#menuSection">Menu</a>
     </li>
     <li class="nav-item Navigation-Item">
-      <a class="nav-link" href="#">Book</a>
-    </li>
+      <a class="nav-link" href="#location">Location</a>
     </li>
   </ul>
 </div>
@@ -95,8 +94,83 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<div class="parallax-window" data-parallax="scroll" data-image-src="./images/menu.jpg"></div>
-<div class="parallax-window overlay" data-parallax="scroll" data-image-src="./images/paris.jpg">
+
+
+<div id ="menuSection" class="parallax-window" data-parallax="scroll" data-image-src="./images/menu.jpg">
+  <div class="container">
+    <div class="filter">
+      <button data-name= "*" class= "btn">All</button>
+      <button data-name= ".seafood" class= "btn">Seafood</button>
+      <button data-name= ".meat" class= "btn">Meat</button>
+      <button data-name= ".vegetarian" class= "btn">Vegetarian</button>
+      <button data-name= ".dessert" class= "btn">Dessert</button>
+    </div>
+
+  <div class="grid">
+
+      <div class="grid-item meat"><div class="MenuItemName">Crêpe au Fromage de Chèvre</div>
+        $11 <br>
+        Crepe baked with goat cheese, spinach and prosciutto, garnished with a red brandy cream sauce  </div>
+
+
+
+     <div class=" grid-item vegetarian"><div class="MenuItemName">Crêpe au Fromage de Brie </div>$11 <br>
+        Brie cheese crepe topped with bechamel sauce and gratineed with swiss cheese</div>
+
+     <div class=" grid-item seafood"><div class="MenuItemName">Crevettes Sauce Boursin </div> $13 <br>
+       Shrimp sautéed with sun-dried tomatoes, corn and leeks in a garlic, herb cream sauce</div>
+
+     <div class=" grid-item vegetarian"><div class="MenuItemName">Champignon Portabella aux Quatre Fromages </div> $12 <br>
+       Grilled mushroom stuffed with swiss, brie and parmesan cheeses, over a blue cheese sauce</div>
+
+     <div class="grid-item seafood"><div class="MenuItemName">Moules Marinières ou à la crème </div> $10 <br>
+     Mussels steamed, with or without cream, in garlic wine sauce</div>
+
+     <div class="grid-item meat"><div class="MenuItemName">
+       Escargots Bourguignon </div> $11.5 <br>
+       Snails in garlic parsley butter</div>
+
+     <div class="grid-item seafood"><div class="MenuItemName">Saumon Fumé </div> $13.5 <br>
+       Smoked salmon garnished with field greens, capers and shallots</div>
+
+     <div class="grid-item vegetarian"><div class="MenuItemName">Bruschetta de Flageolets </div>$9 <br>
+       Grilled french bread with mashed flageolet beans, tomatoes, thyme, garlic and balsamic vinegar</div>
+
+     <div class="grid-item meat"><div class="MenuItemName">
+       Filet Mignon </div> $30 <br>
+       Pan-Seared Center Cut Filet, Roquefort Blue Cheese Sauce, Braised Celery Stalks, Scallop Potato Au Gratin</div>
+
+      <div class="grid-item meat"><div class="MenuItemName">
+         Duck & Sausage </div> $28 <br>
+         Duck leg confit, homemade duck breast trumpet mushroom sausage, black currant sauce, carrot ginger purée</div>
+
+      <div class="grid-item vegetarian"><div class="MenuItemName">
+           Basil Pesto Arborio Risotto </div> $25 <br>
+           King Trumpet Mushrooms, Seasonal Vegetables, Extra Virgin Olive Oil</div>
+
+     <div class=" grid-item dessert"><div class="MenuItemName">Glace Maison et Macaron </div> $12 <br>
+      Ice cream (vanilla bean, chocolate chunk hazelnut, roasted pistachio) served with macaron varieties</div>
+
+     <div class="grid-item dessert"><div class="MenuItemName">Pithiviers De Poire</div> $10 <br>
+     French Pithivier Cake, Pear Almond Filling, Rum Raisin Ice Cream</div>
+
+     <div class="grid-item dessert"><div class="MenuItemName">
+       Profiterole</div> $12 <br>
+       Salted Caramel Ice Cream, Chocolate Sauce, Caramelized Pecan</div>
+
+     <div class="grid-item dessert"><div class="MenuItemName">Fondant au deux Chocolats</div> $11 <br>
+       Dark chocolate flourless fondant with white chocolate, pistachio crème anglaise, vanilla bean ice cream</div>
+
+     <div class="grid-item dessert"><div class="MenuItemName">Pistachio Soufflé</div>$13 <br>
+       Pistachio Soufflé, Almond Sauce, Vanilla Whipped Cream</div>
+
+</div>
+</div>
+
+
+</div>
+
+<div id="location" class="parallax-window overlay" data-parallax="scroll" data-image-src="./images/menu.jpg">
 
 <!-- Google Map API -->
 <div id="map"></div>
@@ -111,7 +185,7 @@
 </div>
 
 <!--Footer-->
-     <footer class="page-footer font-small mdb-color lighten-3 pt-4 mt-4">
+     <footer class="footer page-footer font-small mdb-color lighten-3 pt-4 mt-4">
 
          <!--Footer Links-->
          <div class="container text-center text-md-left">
@@ -120,8 +194,8 @@
                  <!--First column-->
                  <div class="col-md-4 col-lg-4">
                      <h5 class="text-uppercase mb-4 font-weight-bold">Thank you</h5>
-                     <p>Thank you for visiting my website.</p>
-                     <p>This is one example of my frontend work created with HTML5, CSS3, Bootstrap, JQuery and Ajax. You can explore my other projects, and get in touch with me. I would be happy to hear from you! </p>
+                     <p class="darkGrey">Thank you for visiting my website.</p>
+                     <p class="darkGrey">This is one example of my frontend work created with HTML5, CSS3, Bootstrap, JQuery and Ajax. You can explore my other projects, and get in touch with me. I would be happy to hear from you! </p>
                  </div>
                  <!--/.First column-->
 
@@ -132,8 +206,8 @@
                      <h5 class="text-uppercase mb-4 font-weight-bold">About</h5>
                      <ul class=" about list-unstyled">
                          <p><a class= "about" href="#!"> MY PORTFOLIO</a></p>
-                         <p><a class= "about" href="#!">MENU</a></p>
-                         <p><a class= "about" href="#!">BOOK</a></p>
+                         <p><a class= "about" href="#menuSection">MENU</a></p>
+                         <p><a class= "about" href="#location">LOCATION</a></p>
                      </ul>
                  </div>
                  <!--/.Second column-->
@@ -144,11 +218,11 @@
                  <div class="col-md-4 col-lg-3">
                      <h5 class="text-uppercase mb-4 font-weight-bold">Address</h5>
                      <!--Info-->
-                     <p><i class="fa fa-home mr-3"></i> 60 East 65 St <br>
+                     <p class="darkGrey"><i class="fa fa-home mr-3"></i> 60 East 65 St <br>
                        Manhattan, NY 10011</p>
-                     <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
-                     <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-                     <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                     <p class="darkGrey"><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                     <p class="darkGrey"><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                     <p class="darkGrey"><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
                  </div>
                  <!--/.Third column-->
 
@@ -182,9 +256,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="parallax.min.js"></script>
-<script src="script.js"></script>
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi4NR8d6kVTCntR2zEa63x1KT_X7nwaJw&callback=initMap">
     </script>
+
+  <script src="isotope.pkgd.min.js"></script>
+
+  <script src="script.js"></script>
+
 </body>
 </html>

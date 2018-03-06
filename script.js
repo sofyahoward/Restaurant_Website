@@ -9,7 +9,6 @@ $(function() {
    });
 });
 function initMap() {
-
   //map options
   var options = {
     zoom:12,
@@ -24,4 +23,19 @@ var marker = new google.maps.Marker({
   position:{lat:40.7666,lng:-73.9677},
   map:map
 });
+}
+
+var $grid = $('.grid').isotope({
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows'
+});
+
+$(".filter button").on("click", function () {
+  var value = $(this).attr("data-name");
+  $grid.isotope({
+    filter: value
+  });
+})
+function flip() {
+    $('.card').toggleClass('flipped');
 }
